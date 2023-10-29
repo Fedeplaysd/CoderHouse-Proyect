@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+body{
+    background-color: #5C8374;    
+    font-family: 'Gabarito', cursive;
+    color:#040D12 ;
+}
+header{
+    display: flex;
+}
+/* EMPIEZA MAIN */
+.f {
+    margin: 10px;
+}
+.l {
+    margin: 10px;
+}
+.barra {
+    display: flex;
+    justify-content: center;   
+}
+.h3barra {
+    display: flex;
+    justify-content: center;
+}
+.descripcion {
+       margin: 25px;
+}
+.historia {
+    margin: 25px;
+}
+.experiencia {
+    margin: 25px;
+}
+/* TERMINA MAIN */
+/* EMPIEZA SECCION MENSAJE */
+.titulomsj {
+    text-align: center;
+    font-size: 32px;
+}
+.areatexto {   
+    width: 720px;
+    height: 360px;
+    margin-top: 15px;
+}
+.volver {
+    width: 150px;
+}
+#areatxt {
+    display: flex;
+    justify-content: center;
+}
+#botontxt {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#infotxt {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+/* TERMINA SECCION MENSAJE */
+/*EMPIEZA SECCION PRODUCTOS */
+
+.javascript {
+    width: 150px;
+    height: 150px;
+}
+.diseñoux {
+    width: 150px;
+    height: 150px;
+}
+.reactjs {
+    width: 150px;
+    height: 150px;
+}
+.angularjs {
+    width: 150px;
+    height: 150px;
+}
+/* TERMINA SECCION PRODUCTOS */
+/*EMPIEZA SECCION SITIOS RECOMENDADOS */
+
+.sitiosRecomendados {
+    display: flex;
+    flex-direction: column;
+}
+/* TERMINA SECCION SITIOS RECOMENDADOS */
+/*EMPIEZA SECCION VIDEOS RECOMENDADOS */
+
+.youtube {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.yt1 {
+    margin: 15px;
+}
+
+.yt2 {
+    margin: 15px;
+}
+
+/*TERMINA SECCION VIDEOS RECOMENDADOS */
