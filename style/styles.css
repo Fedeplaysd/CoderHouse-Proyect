@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
 body{
-    background-color: #5C8374;    
+    background-color: #232D3F;    
     font-family: 'Gabarito', cursive;
     color:#040D12 ;
+    box-sizing: border-box;
 }
-header{
-    display: flex;
+header {
+    background-color:#232D3F;
 }
 /* EMPIEZA MAIN */
 .f {
@@ -21,17 +22,35 @@ header{
 .h3barra {
     display: flex;
     justify-content: center;
+    color: #D0D4CA;
 }
-.descripcion {
-       margin: 25px;
+
+.descripcion, .historia {
+    background-color: #45474B;
 }
-.historia {
-    margin: 25px;
-}
+
 .experiencia {
-    margin: 25px;
+    background-color: #45474B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 1.5px;   
 }
+.experiencia ol {
+    padding-left: 0;
+}
+
+.experiencia ol li {
+    margin-bottom: 5px;
+    list-style-position: inside;
+    text-align: left;
+}
+/*BOOTSTRAP*/
+
 /* TERMINA MAIN */
+
 /* EMPIEZA SECCION MENSAJE */
 .titulomsj {
     text-align: center;
@@ -102,3 +121,13 @@ header{
 }
 
 /*TERMINA SECCION VIDEOS RECOMENDADOS */
+
+/*BARRA DE NAVEGACION */
+
+.navbar-brand img {
+    max-height: 20%;
+    max-width: 16%;
+}
+.navbar-nav {
+    margin-left: auto;
+}
