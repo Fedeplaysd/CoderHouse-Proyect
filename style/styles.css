@@ -7,22 +7,24 @@ body{
 }
 header {
     background-color:#303c52;
+    margin-bottom: 12px;
+}
+
+input {
+    background-color: #303c52;
+}
+textarea {
+    background-color: #303c52;
 }
 .footerPaginasNoIndex {
     display: flex;
     justify-content: center;
     margin: 3px;
 }
-/* EMPIEZA MAIN */
-.f {
-    margin: 10px;
-}
-.l {
-    margin: 10px;
-}
+/* EMPIEZA INDEX */
 .barra {
     display: flex;
-    justify-content: center;   
+    justify-content: space-evenly;   
 }
 .h3barra {
     display: flex;
@@ -52,36 +54,12 @@ header {
     list-style-position: inside;
     text-align: left;
 }
-/*BOOTSTRAP*/
 
-/* TERMINA MAIN */
+/* TERMINA INDEX */
 
 /* EMPIEZA SECCION MENSAJE */
-.titulomsj {
-    text-align: center;
-    font-size: 32px;
-}
-.areatexto {   
-    width: 720px;
-    height: 360px;
-    margin-top: 15px;
-}
-.volver {
-    width: 150px;
-}
-#areatxt {
-    display: flex;
-    justify-content: center;
-}
-#botontxt {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-#infotxt {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
+.inputMsj {
+    background-color: #303c52;
 }
 /* TERMINA SECCION MENSAJE */
 
@@ -141,10 +119,27 @@ header {
 /*EMPIEZA SECCION SITIOS RECOMENDADOS */
 
 .sitiosRecomendados {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-color:#303c52 ;
+}
+
+.tituloSitiosRecomendados {
+    grid-column: 1 / -1;
+}
+
+.sitioRecomendado {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
+
 /* TERMINA SECCION SITIOS RECOMENDADOS */
+
 /*EMPIEZA SECCION VIDEOS RECOMENDADOS */
 .divPadreVr {
     text-align: center;
