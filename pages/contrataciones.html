@@ -22,7 +22,7 @@
                         <a class="nav-link" href="./prod.html">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./ontrataciones.html">Contrataciones</a>
+                        <a class="nav-link" href="./contrataciones.html">Contrataciones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./msj.html">Envianos un mensaje</a>
@@ -38,41 +38,55 @@
         </nav>
     </header>
     <hr>
-    <main>
-        <h1>
+    <main class="paginaContrataciones">
+        <h1 class="h1c">
             Bienvenidos a la pestaña de CONTRATACIONES!
         </h1>
-        <h2>
-            Aqui podras enviarnos tu consulta
+        <h2 class="h2c">
+            Aquí podrás enviarnos tu consulta
         </h2>
-        <p>
-            Porfavor indica el motivo de la consulta,luego escribe la informacion requerida, y por ultimo danos una breve explicacion de lo que tiene en mente! <br> ESTAMOS AQUI PARA AYUDAR!!
+        <p class="pc">
+            Por favor indica el motivo de la consulta, luego escribe la información requerida y por último danos una breve explicación de lo que tienes en mente. ¡ESTAMOS AQUÍ PARA AYUDAR!
         </p>
-        <div>
-            SITIOS WEB<input type="checkbox" name="check1" id="contrsitweb">
-            APLICATIVOS WEB<input type="checkbox" name="check2" id="contrapliweb">
-            VIDEOJUEGOS<input type="checkbox" name="chek3" id="contrvideojue">
-            TESTING Q&A<input type="checkbox" name="chek4" id="contrtest">
+        <div class="checkboxes">
+            <label for="contrsitweb">SITIOS WEB</label>
+            <input type="checkbox" name="check1" id="contrsitweb">
+            
+            <label for="contrapliweb">APLICATIVOS WEB</label>
+            <input type="checkbox" name="check2" id="contrapliweb">
+            
+            <label for="contrvideojue">VIDEOJUEGOS</label>
+            <input type="checkbox" name="chek3" id="contrvideojue">
+            
+            <label for="contrtest">TESTING Q&A</label>
+            <input type="checkbox" name="chek4" id="contrtest">
         </div>
         <div>
-            Nombre completo<input type="text" name="" id="">
-            Fecha de nacimiento<input type="date" name="" id="">
-            Numero telefonico<input type="number" name="" id="">
-            Email<input type="email" name="" id="">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" name="nombre" id="nombre">
+            
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" name="fecha" id="fecha">
+            
+            <label for="telefono">Número telefónico</label>
+            <input type="number" name="telefono" id="telefono">
+            
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
         </div>
         <div class="textareacontr">
-            <textarea name="" id="" cols="100" rows="25"></textarea>
+            <textarea class="areaTextoContrataciones" name="mensaje" id="mensaje" cols="100" rows="25"></textarea> 
         </div>   
         <div>
-            <button>
+            <button type="submit">
                 ENVIAR
             </button>
-            <button>
+            <button type="reset">
                 LIMPIAR
-            </button>
+            </button>   
         </div>
     </main>
-    <footer>
+    <footer class="footerPaginasNoIndex">
         <a href="../index.html"><button>Pagina principal</button></a>
     </footer>    
 </body>
